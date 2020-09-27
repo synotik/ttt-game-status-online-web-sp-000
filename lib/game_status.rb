@@ -68,9 +68,8 @@ def over?(board)
 end
 
 def winner(board)
-  winner_array = won?(board)
-  winner = board[winner_array[0]]
-  if winner == "X" || winner = "O"
+  if winner_array = won?(board)
+    winner = board[winner_array[0]]
     return winner
   else
     return nil
