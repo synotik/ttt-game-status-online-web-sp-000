@@ -35,3 +35,11 @@ def won?(board)
  false
 
 end
+
+def full?(board)
+  if board.detect {|i| i == " "}
+    false
+  else
+    true
+  end
+end
