@@ -68,6 +68,6 @@ def over?(board)
 end
 
 def winner(board)
-  winner_array = board[won?(board)]
+  winner_array = won?(board)
 
 end
