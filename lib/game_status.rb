@@ -69,6 +69,5 @@ end
 
 def winner(board)
   winner_array = board[won?(board)]
-  winner = winner_array[0].to_i
-  return winner
+
 end
