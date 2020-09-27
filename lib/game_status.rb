@@ -70,5 +70,9 @@ end
 def winner(board)
   winner_array = won?(board)
   winner = board[winner_array[0]]
-  return winner
+  if winner == "X" || winner = "O"
+    return winner
+  else
+    return nil
+  end
 end
